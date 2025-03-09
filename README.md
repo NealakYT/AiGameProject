@@ -1,6 +1,6 @@
 # AiGameProject
 Team project for search-based game development
-Dan Is Gay
+# Dan Is Gay
 ## Setup
 1. Clone the repo: `git clone https://github.com/yourusername/NumericalStringGameProject.git`
 2. Navigate to the folder: `cd NumericalStringGameProject`
