@@ -25,7 +25,7 @@ class NumberGame:
         self.label_start = tk.Label(root, text="Who starts? (Human/Computer)")
         self.label_start.pack()
         self.var_start = tk.StringVar(value="Human")
-        self.radio_human = tk.Radiobutton(root, text="Human", variable=self.var_start, value="Human")
+        self.radio_human = tk.Radiobutton(root, text="Human", variable=self.var_start, value="Player")
         self.radio_computer = tk.Radiobutton(root, text="Computer", variable=self.var_start, value="Computer")
         self.radio_human.pack()
         self.radio_computer.pack()
