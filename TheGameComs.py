@@ -19,7 +19,7 @@ class NumberGame:
 
         # Initialize AI settings
         self.algorithm = "Minimax"  # Default AI algorithm (user can choose Minimax or Alpha-Beta)
-        self.max_depth = 2  # Maximum depth for AI search algorithms
+        self.max_depth = 2 # Maximum depth for AI search algorithms
 
         # Set up GUI elements
         self.label_length = tk.Label(root, text="Enter string length (15-25):")  # Label for string length input

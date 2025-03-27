@@ -19,7 +19,7 @@ class NumberGame:
 
         # AI-related variables
         self.algorithm = "Minimax"  # Default algorithm (will be set by user choice)
-        self.max_depth = 2  # Depth for Minimax/Alpha-Beta (keep small for performance)
+        self.max_depth = 2 # Depth for Minimax/Alpha-Beta (keep small for performance)
 
         # GUI setup: Create and pack all widgets
         # Label and entry for user to input the string length
